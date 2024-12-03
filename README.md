@@ -4,5 +4,5 @@
 
 (version 1.0) 2024.12.04
 
-Contributor: 석현석, 유지원, 이건, 이재형
+Contributors: [석현석](https://github.com/HYEONSEOKROCK), [유지원](https://github.com/Altaaaaaaa), [이건](https://github.com/az8602), 이재형
 
