@@ -14,6 +14,44 @@ Contributors: [석현석](https://github.com/HYEONSEOKROCK), [유지원](https:/
 
 ---
 
+## **목차**
+
+1. **Introductions**
+   - [진단검사란](#진단검사란)
+   - 튜토리얼 목차
+   - 문제 상황
+
+2. **Data**
+   - 데이터 확인 결과
+
+3. **Input Data Generation**
+
+   3.1. 입력 데이터 구성을 위한 피벗팅  
+   3.2. 데이터 인코딩
+
+4. **Model Development**
+   - 검체 뒤바뀜 오류 시뮬레이션
+
+   4.1. Data Splitting  
+   - 조건을 고려하지 않은 일반적인 방법
+
+        4.1.1. XGBoost
+        - 환경적 요소를 고려한 데이터 시뮬레이션 및 splitting
+
+   4.2. DNN
+
+   4.3. Preprocessing
+
+5. **Hyperparameter + Architecture Tuning**
+
+   5.1. 하이퍼파라미터 튜닝 (Hyperparameter Tuning)  
+
+   - 베이지안 최적화
+
+   5.2. Optuna란?
+
+---
+
 ## **진단검사란**
 
 진단검사는 인체에서 유래하는 각종 검체(혈액, 소변, 체액 등)에 대한 적절한 검사로 질병 진단이나 치료효과 판정에 도움을 주는 검사입니다.
@@ -71,7 +109,7 @@ Contributors: [석현석](https://github.com/HYEONSEOKROCK), [유지원](https:/
 
 ---
 
-## **데이터베이스**
+## **데이터**
 
 | 파일 이름              | 설명                                       |
 |------------------------|--------------------------------------------|
@@ -100,40 +138,3 @@ $\text{F1-score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{P
 
 F1-score를 통해 오류를 **더 많이, 더 정확히 탐지**할 수 있는지를 평가합니다.
 
----
-
-## **목차**
-
-1. **Introductions**
-   - 진단검사란
-   - 튜토리얼 목차
-   - 문제 상황
-
-2. **Data**
-   - 데이터 확인 결과
-
-3. **Input Data Generation**
-
-   3.1. 입력 데이터 구성을 위한 피벗팅  
-   3.2. 데이터 인코딩
-
-4. **Model Development**
-   - 검체 뒤바뀜 오류 시뮬레이션
-
-   4.1. Data Splitting  
-   - 조건을 고려하지 않은 일반적인 방법
-
-        4.1.1. XGBoost
-        - 환경적 요소를 고려한 데이터 시뮬레이션 및 splitting
-
-   4.2. DNN
-
-   4.3. Preprocessing
-
-5. **Hyperparameter + Architecture Tuning**
-
-   5.1. 하이퍼파라미터 튜닝 (Hyperparameter Tuning)  
-
-   - 베이지안 최적화
-
-   5.2. Optuna란?
